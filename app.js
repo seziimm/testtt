@@ -2,7 +2,7 @@ let ArrTag = ['li', 'span', 'div', 'span', 'h3', 'a', 'div', 'span', 'a', 'li', 
 let result = {}
 ArrTag.forEach(function(a){
 
-    let  jiooii = ArrTag [a]
+    let  arrTagElement = ArrTag [a]
     if (result[a] != undefined )
         ++result[a];
     else
